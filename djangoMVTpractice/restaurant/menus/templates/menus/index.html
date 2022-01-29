@@ -1,0 +1,24 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>치킨은 닭닭닭닭닭닭닭</h2>
+    <div>{{date}}</div>
+    <a href='/menus/food/name'>detail</a>
+
+    {% for i in kind %}
+        <h2>{{i.name}}</h2>
+        <h2>{{i.name_eng}}</h2>
+        <h2>{{i.description}}</h2>
+        <h2>{{i.price}}</h2>
+        <h2>ㅡㅡㅡㅡㅡㅡㅡㅡ</h2>
+    
+    {% endfor %}
+</body>
+</html>
